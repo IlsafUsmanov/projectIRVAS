@@ -1,7 +1,6 @@
 {
   "name": "window",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -23,5 +22,13 @@
     "gulp": "^4.0.2",
     "webpack": "^4.46.0",
     "webpack-stream": "^5.2.1"
-  }
+  },
+  "dependencies": {
+    "@angular/common": "^12.1.4",
+    "@angular/core": "^12.1.4",
+    "@angular/platform-browser": "^12.1.4",
+    "jquery": "^3.6.0",
+    "slider-carousel": "^1.1.1"
+  },
+  "description": ""
 }
