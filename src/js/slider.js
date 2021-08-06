@@ -1,6 +1,8 @@
 import $ from 'jquery'; //Импорт jQuery через npm-modules
 import 'slider-carousel'; //Импорт Slick slider
 
+
+
 $(document).ready(function() {
     $('.glazing_slider').slick({
         infinite: true,

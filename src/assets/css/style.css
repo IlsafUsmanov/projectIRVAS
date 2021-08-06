@@ -18,6 +18,20 @@ body {
   color: red;
 }
 
+.faded {
+  animation-name: faded;
+  animation-duration: 1.5s;
+}
+
+@keyframes faded {
+  from {
+    opacity: 0.1;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
 a:hover {
   text-decoration: none;
 }
@@ -368,6 +382,11 @@ textarea:focus {
 
 .glazing_block {
   display: inline-block;
+}
+
+.glazing_slider, .decoration_slider {
+  display: flex;
+  justify-content: space-between;
 }
 
 .glazing_block img {
